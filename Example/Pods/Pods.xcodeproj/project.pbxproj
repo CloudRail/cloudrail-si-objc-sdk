@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188731BD35F56F2C944FE7945BA57E87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		263CFB77E077C736FEBD6B3115CDA6B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		42DD58E217235329F748712C145A58A6 /* Pods-CloudRail-SI-iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE4312A46674A2942D2F14A5DFC6AA7 /* Pods-CloudRail-SI-iOS_Example-dummy.m */; };
+		77395D22D40ED22105D46BD7CA872F25 /* Pods-CloudRail-SI-iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30292A11810DAB6B658CBC7512246842 /* Pods-CloudRail-SI-iOS_Tests-dummy.m */; };
+		C74A25CC789EECC88EE7EBAB78CE805E /* Pods-CloudRail-SI-iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08CD43AF1ABF3779FE5FDC055FB871B7 /* Pods-CloudRail-SI-iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE0EA33DAF38DE32C5810A742B6D799B /* Pods-CloudRail-SI-iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F03B3F72EE584E9213C9F94CF8F616DA /* Pods-CloudRail-SI-iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0664671CC9EBA23AD07D3B5ADF89CAC3 /* Pods-CloudRail-SI-iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CloudRail-SI-iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		08CD43AF1ABF3779FE5FDC055FB871B7 /* Pods-CloudRail-SI-iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CloudRail-SI-iOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		0A865A14A5AA5EC9DE132F92E27E93B7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BE4312A46674A2942D2F14A5DFC6AA7 /* Pods-CloudRail-SI-iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CloudRail-SI-iOS_Example-dummy.m"; sourceTree = "<group>"; };
+		16A0E151DDE70104659C22980C386297 /* Pods-CloudRail-SI-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CloudRail-SI-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F08B24415EB6C9E3C5835E108A10C3A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20BA65D96042E7586364BA22140AD2A2 /* Pods-CloudRail-SI-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CloudRail-SI-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		30292A11810DAB6B658CBC7512246842 /* Pods-CloudRail-SI-iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CloudRail-SI-iOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		5BFBE4C816377C30D98C3FC3FC72EA8D /* Pods_CloudRail_SI_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CloudRail_SI_iOS_Example.framework; path = "Pods-CloudRail-SI-iOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CAB8BC28F5DF3C60613CF8314B66A0A /* Pods-CloudRail-SI-iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CloudRail-SI-iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		763A97B8441A737E2CA3B6BB9698DF98 /* Pods-CloudRail-SI-iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CloudRail-SI-iOS_Example.modulemap"; sourceTree = "<group>"; };
+		839D51CB25381169D555831B70796FE2 /* Pods-CloudRail-SI-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CloudRail-SI-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8652C484A1C4296625D47CA36619F8DF /* Pods-CloudRail-SI-iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CloudRail-SI-iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9827E2E9D2BAB6C4296E18DBD66AB21F /* Pods-CloudRail-SI-iOS_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CloudRail-SI-iOS_Tests-resources.sh"; sourceTree = "<group>"; };
+		A277AD19E7567DC7D5C93F246762CA0F /* Pods-CloudRail-SI-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CloudRail-SI-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B15150E456D9F2E0AE4C203BE2F85863 /* Pods-CloudRail-SI-iOS_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CloudRail-SI-iOS_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B61D9B75E83E7040DD3563DEA89168AC /* CloudrailSI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudrailSI.framework; path = Frameworks/CloudrailSI.framework; sourceTree = "<group>"; };
+		B924B36B99C3F39D10BE4852C5BCB520 /* Pods-CloudRail-SI-iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CloudRail-SI-iOS_Tests.modulemap"; sourceTree = "<group>"; };
+		CB5967536BA3C6F3AE2539C403266FB7 /* Pods-CloudRail-SI-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CloudRail-SI-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D0D3E56662C91B9A3C2984B2FB201908 /* Pods-CloudRail-SI-iOS_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CloudRail-SI-iOS_Example-resources.sh"; sourceTree = "<group>"; };
+		D20E70BBA4C51F37049F382B5A16A6A3 /* Pods-CloudRail-SI-iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CloudRail-SI-iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EEF2AA98135130C9FCFC2B8F1B23C51D /* Pods_CloudRail_SI_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CloudRail_SI_iOS_Tests.framework; path = "Pods-CloudRail-SI-iOS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03B3F72EE584E9213C9F94CF8F616DA /* Pods-CloudRail-SI-iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CloudRail-SI-iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43B13213DE38200CB507B5315A07280D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263CFB77E077C736FEBD6B3115CDA6B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		621DD83AF7249ECB637964EDC9C6E6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188731BD35F56F2C944FE7945BA57E87 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E2E8D75263A3BBA2BAABD6716E1BE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BFBE4C816377C30D98C3FC3FC72EA8D /* Pods_CloudRail_SI_iOS_Example.framework */,
+				EEF2AA98135130C9FCFC2B8F1B23C51D /* Pods_CloudRail_SI_iOS_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2900A3573EA62BFD16534C388D5BBB16 /* Pods-CloudRail-SI-iOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0A865A14A5AA5EC9DE132F92E27E93B7 /* Info.plist */,
+				763A97B8441A737E2CA3B6BB9698DF98 /* Pods-CloudRail-SI-iOS_Example.modulemap */,
+				0664671CC9EBA23AD07D3B5ADF89CAC3 /* Pods-CloudRail-SI-iOS_Example-acknowledgements.markdown */,
+				CB5967536BA3C6F3AE2539C403266FB7 /* Pods-CloudRail-SI-iOS_Example-acknowledgements.plist */,
+				0BE4312A46674A2942D2F14A5DFC6AA7 /* Pods-CloudRail-SI-iOS_Example-dummy.m */,
+				D20E70BBA4C51F37049F382B5A16A6A3 /* Pods-CloudRail-SI-iOS_Example-frameworks.sh */,
+				D0D3E56662C91B9A3C2984B2FB201908 /* Pods-CloudRail-SI-iOS_Example-resources.sh */,
+				08CD43AF1ABF3779FE5FDC055FB871B7 /* Pods-CloudRail-SI-iOS_Example-umbrella.h */,
+				A277AD19E7567DC7D5C93F246762CA0F /* Pods-CloudRail-SI-iOS_Example.debug.xcconfig */,
+				20BA65D96042E7586364BA22140AD2A2 /* Pods-CloudRail-SI-iOS_Example.release.xcconfig */,
+			);
+			name = "Pods-CloudRail-SI-iOS_Example";
+			path = "Target Support Files/Pods-CloudRail-SI-iOS_Example";
+			sourceTree = "<group>";
+		};
+		30C495399D2307A06B60E2A660DAB3EF /* cloudrail-si-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				9CC17844C313DA2DF4823A9267F53387 /* Frameworks */,
+			);
+			name = "cloudrail-si-ios-sdk";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		31B42FC43CBC5B29A166D90D0C7A1EB6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2900A3573EA62BFD16534C388D5BBB16 /* Pods-CloudRail-SI-iOS_Example */,
+				EB2DAFDFB45CCE47FF670BBF4AD88349 /* Pods-CloudRail-SI-iOS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C43EFB4703A16A13C66A1484A1ACC66E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				00E2E8D75263A3BBA2BAABD6716E1BE2 /* Products */,
+				31B42FC43CBC5B29A166D90D0C7A1EB6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9CC17844C313DA2DF4823A9267F53387 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B61D9B75E83E7040DD3563DEA89168AC /* CloudrailSI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C43EFB4703A16A13C66A1484A1ACC66E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30C495399D2307A06B60E2A660DAB3EF /* cloudrail-si-ios-sdk */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EB2DAFDFB45CCE47FF670BBF4AD88349 /* Pods-CloudRail-SI-iOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1F08B24415EB6C9E3C5835E108A10C3A /* Info.plist */,
+				B924B36B99C3F39D10BE4852C5BCB520 /* Pods-CloudRail-SI-iOS_Tests.modulemap */,
+				5CAB8BC28F5DF3C60613CF8314B66A0A /* Pods-CloudRail-SI-iOS_Tests-acknowledgements.markdown */,
+				8652C484A1C4296625D47CA36619F8DF /* Pods-CloudRail-SI-iOS_Tests-acknowledgements.plist */,
+				30292A11810DAB6B658CBC7512246842 /* Pods-CloudRail-SI-iOS_Tests-dummy.m */,
+				B15150E456D9F2E0AE4C203BE2F85863 /* Pods-CloudRail-SI-iOS_Tests-frameworks.sh */,
+				9827E2E9D2BAB6C4296E18DBD66AB21F /* Pods-CloudRail-SI-iOS_Tests-resources.sh */,
+				F03B3F72EE584E9213C9F94CF8F616DA /* Pods-CloudRail-SI-iOS_Tests-umbrella.h */,
+				16A0E151DDE70104659C22980C386297 /* Pods-CloudRail-SI-iOS_Tests.debug.xcconfig */,
+				839D51CB25381169D555831B70796FE2 /* Pods-CloudRail-SI-iOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-CloudRail-SI-iOS_Tests";
+			path = "Target Support Files/Pods-CloudRail-SI-iOS_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1054151F28A6CD7FE006AB488F0A741D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0EA33DAF38DE32C5810A742B6D799B /* Pods-CloudRail-SI-iOS_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A7231FCA138F2204CC5ED28AD12635 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74A25CC789EECC88EE7EBAB78CE805E /* Pods-CloudRail-SI-iOS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7E4429A94D5EEDF0EC09AED149FFF902 /* Pods-CloudRail-SI-iOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB55EF9961F2C3D653599C41904EAA82 /* Build configuration list for PBXNativeTarget "Pods-CloudRail-SI-iOS_Tests" */;
+			buildPhases = (
+				D0C6DA6B1BA893093C4C3D7BC86F46BD /* Sources */,
+				621DD83AF7249ECB637964EDC9C6E6FA /* Frameworks */,
+				1054151F28A6CD7FE006AB488F0A741D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CloudRail-SI-iOS_Tests";
+			productName = "Pods-CloudRail-SI-iOS_Tests";
+			productReference = EEF2AA98135130C9FCFC2B8F1B23C51D /* Pods_CloudRail_SI_iOS_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF2ED42B13086D56CB04BC397D66A642 /* Pods-CloudRail-SI-iOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7263C0DB98A48B33E1AE02C7D92D7E22 /* Build configuration list for PBXNativeTarget "Pods-CloudRail-SI-iOS_Example" */;
+			buildPhases = (
+				6DFF0F43929F2ACB13B850E1AE6A85EF /* Sources */,
+				43B13213DE38200CB507B5315A07280D /* Frameworks */,
+				F9A7231FCA138F2204CC5ED28AD12635 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CloudRail-SI-iOS_Example";
+			productName = "Pods-CloudRail-SI-iOS_Example";
+			productReference = 5BFBE4C816377C30D98C3FC3FC72EA8D /* Pods_CloudRail_SI_iOS_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 00E2E8D75263A3BBA2BAABD6716E1BE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF2ED42B13086D56CB04BC397D66A642 /* Pods-CloudRail-SI-iOS_Example */,
+				7E4429A94D5EEDF0EC09AED149FFF902 /* Pods-CloudRail-SI-iOS_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DFF0F43929F2ACB13B850E1AE6A85EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DD58E217235329F748712C145A58A6 /* Pods-CloudRail-SI-iOS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C6DA6B1BA893093C4C3D7BC86F46BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77395D22D40ED22105D46BD7CA872F25 /* Pods-CloudRail-SI-iOS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FCAEE7FBBED36B613705C63E2530B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16A0E151DDE70104659C22980C386297 /* Pods-CloudRail-SI-iOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CloudRail-SI-iOS_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CloudRail-SI-iOS_Tests/Pods-CloudRail-SI-iOS_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CloudRail_SI_iOS_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E9086BE110F5889A0AE7BFBFD02E961B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A277AD19E7567DC7D5C93F246762CA0F /* Pods-CloudRail-SI-iOS_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CloudRail-SI-iOS_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CloudRail-SI-iOS_Example/Pods-CloudRail-SI-iOS_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CloudRail_SI_iOS_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F106850BBA429E98402E35997C6DAE22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20BA65D96042E7586364BA22140AD2A2 /* Pods-CloudRail-SI-iOS_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CloudRail-SI-iOS_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CloudRail-SI-iOS_Example/Pods-CloudRail-SI-iOS_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CloudRail_SI_iOS_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3B8BB235DCE1E2B22B3A1633004E560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 839D51CB25381169D555831B70796FE2 /* Pods-CloudRail-SI-iOS_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CloudRail-SI-iOS_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CloudRail-SI-iOS_Tests/Pods-CloudRail-SI-iOS_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CloudRail_SI_iOS_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7263C0DB98A48B33E1AE02C7D92D7E22 /* Build configuration list for PBXNativeTarget "Pods-CloudRail-SI-iOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9086BE110F5889A0AE7BFBFD02E961B /* Debug */,
+				F106850BBA429E98402E35997C6DAE22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB55EF9961F2C3D653599C41904EAA82 /* Build configuration list for PBXNativeTarget "Pods-CloudRail-SI-iOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FCAEE7FBBED36B613705C63E2530B79 /* Debug */,
+				F3B8BB235DCE1E2B22B3A1633004E560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
