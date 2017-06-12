@@ -17,7 +17,6 @@ CloudRail is an API integration solution which abstracts multiple APIs from diff
 <img width="800px" src="http://cloudrail.github.io/img/available_interfaces_v2.png"/>
 </p>
 ---
----
 
 [![CocoaPods](https://img.shields.io/cocoapods/v/cloudrail-si-ios-sdk.svg)]()
 [![CocoaPods](https://img.shields.io/cocoapods/p/cloudrail-si-ios-sdk.svg)]()
@@ -44,7 +43,7 @@ This means that, for example, upload() works in exactly the same way for Dropbox
 ## CocoaPods
 Add the pod to your podfile
 ```
-pod 'cloudrail-si-ios-sdk'
+pod 'cloudrail-si-objc-sdk'
 ```
 run
 ```
