@@ -9,7 +9,7 @@
 #import "CRAppDelegate.h"
 #import <CloudRailSI/CloudRailSI.h>
 
-#define kCLOUDRAIL_KEY @"592570de40ec7664ba40a4e5"
+#define kCLOUDRAIL_KEY @""
 
 @implementation CRAppDelegate
 

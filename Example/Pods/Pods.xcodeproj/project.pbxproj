@@ -24,11 +24,11 @@
 		1F08B24415EB6C9E3C5835E108A10C3A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20BA65D96042E7586364BA22140AD2A2 /* Pods-CloudRail-SI-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CloudRail-SI-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		30292A11810DAB6B658CBC7512246842 /* Pods-CloudRail-SI-iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CloudRail-SI-iOS_Tests-dummy.m"; sourceTree = "<group>"; };
-		3983BFA0B59936C577DC964FB816AE23 /* CloudrailSI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudrailSI.framework; path = Frameworks/CloudrailSI.framework; sourceTree = "<group>"; };
 		5BFBE4C816377C30D98C3FC3FC72EA8D /* Pods_CloudRail_SI_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CloudRail_SI_iOS_Example.framework; path = "Pods-CloudRail-SI-iOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CAB8BC28F5DF3C60613CF8314B66A0A /* Pods-CloudRail-SI-iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CloudRail-SI-iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		763A97B8441A737E2CA3B6BB9698DF98 /* Pods-CloudRail-SI-iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CloudRail-SI-iOS_Example.modulemap"; sourceTree = "<group>"; };
+		82CD9266B82BAF4C511286C8E02135C8 /* CloudrailSI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudrailSI.framework; path = Frameworks/CloudrailSI.framework; sourceTree = "<group>"; };
 		839D51CB25381169D555831B70796FE2 /* Pods-CloudRail-SI-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CloudRail-SI-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8652C484A1C4296625D47CA36619F8DF /* Pods-CloudRail-SI-iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CloudRail-SI-iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -72,6 +72,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		112DBA96E7FA7B4F5ABEE7AC6DF8A3EA /* cloudrail-si-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				E131A67D0C16EB8CC9EFDF5C4E51EA92 /* Frameworks */,
+			);
+			name = "cloudrail-si-ios-sdk";
+			path = "cloudrail-si-ios-sdk";
+			sourceTree = "<group>";
+		};
 		2900A3573EA62BFD16534C388D5BBB16 /* Pods-CloudRail-SI-iOS_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,29 +108,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		36E01A196146A9BDA49285A63F804AA5 /* cloudrail-si-objc-sdk */ = {
-			isa = PBXGroup;
-			children = (
-				62B364CCB8C75AEEC966754F168BACCA /* Frameworks */,
-			);
-			name = "cloudrail-si-objc-sdk";
-			path = "cloudrail-si-objc-sdk";
-			sourceTree = "<group>";
-		};
-		62B364CCB8C75AEEC966754F168BACCA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3983BFA0B59936C577DC964FB816AE23 /* CloudrailSI.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				F6E4D6CCDD8E7240A7A338F005A068F8 /* Pods */,
+				E287455F5FFDB93487DCAEF4A2CA8768 /* Pods */,
 				00E2E8D75263A3BBA2BAABD6716E1BE2 /* Products */,
 				31B42FC43CBC5B29A166D90D0C7A1EB6 /* Targets Support Files */,
 			);
@@ -143,6 +135,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		E131A67D0C16EB8CC9EFDF5C4E51EA92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82CD9266B82BAF4C511286C8E02135C8 /* CloudrailSI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E287455F5FFDB93487DCAEF4A2CA8768 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				112DBA96E7FA7B4F5ABEE7AC6DF8A3EA /* cloudrail-si-ios-sdk */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EB2DAFDFB45CCE47FF670BBF4AD88349 /* Pods-CloudRail-SI-iOS_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,14 +167,6 @@
 			);
 			name = "Pods-CloudRail-SI-iOS_Tests";
 			path = "Target Support Files/Pods-CloudRail-SI-iOS_Tests";
-			sourceTree = "<group>";
-		};
-		F6E4D6CCDD8E7240A7A338F005A068F8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				36E01A196146A9BDA49285A63F804AA5 /* cloudrail-si-objc-sdk */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
