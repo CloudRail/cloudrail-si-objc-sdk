@@ -1,0 +1,12 @@
+PODS:
+  - cloudrail-si-objc-sdk (5.6.0)
+
+DEPENDENCIES:
+  - cloudrail-si-objc-sdk
+
+SPEC CHECKSUMS:
+  cloudrail-si-objc-sdk: 5e8ac1e9fe55c4e0bd809de3125fef4a724082ef
+
+PODFILE CHECKSUM: 4b1cd516e6cde9e2bdf4c6a162fec048770a1516
+
+COCOAPODS: 1.2.1
