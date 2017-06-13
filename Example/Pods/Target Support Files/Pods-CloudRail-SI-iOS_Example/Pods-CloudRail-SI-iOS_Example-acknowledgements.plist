@@ -21,7 +21,7 @@ Learn more on https://cloudrail.com
 			<key>License</key>
 			<string>Copyright</string>
 			<key>Title</key>
-			<string>cloudrail-si-ios-sdk</string>
+			<string>cloudrail-si-objc-sdk</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

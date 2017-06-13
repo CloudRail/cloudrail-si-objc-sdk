@@ -89,10 +89,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_ROOT}/cloudrail-si-ios-sdk/Frameworks/CloudrailSI.framework"
+  install_framework "${PODS_ROOT}/cloudrail-si-objc-sdk/Frameworks/CloudrailSI.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_ROOT}/cloudrail-si-ios-sdk/Frameworks/CloudrailSI.framework"
+  install_framework "${PODS_ROOT}/cloudrail-si-objc-sdk/Frameworks/CloudrailSI.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## cloudrail-si-ios-sdk
+## cloudrail-si-objc-sdk
 
 Please visit https://developers.cloudrail.com/ to sign-up and for further licensing information. 
 
