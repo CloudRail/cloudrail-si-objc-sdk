@@ -14,13 +14,7 @@
 @implementation CRAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    if ([kCLOUDRAIL_KEY isEqualToString:@""]) {
-        NSLog(@"No Cloudrail Key found");
-    } else {
-        [CRCloudRail setAppKey:kCLOUDRAIL_KEY];
-    }
-    
+    [CRCloudRail setAppKey:kCLOUDRAIL_KEY];
     return YES;
 }
 

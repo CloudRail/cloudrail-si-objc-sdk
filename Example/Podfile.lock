@@ -1,11 +1,11 @@
 PODS:
-  - cloudrail-si-objc-sdk (5.6.0)
+  - cloudrail-si-objc-sdk (5.6.3)
 
 DEPENDENCIES:
   - cloudrail-si-objc-sdk
 
 SPEC CHECKSUMS:
-  cloudrail-si-objc-sdk: 5e8ac1e9fe55c4e0bd809de3125fef4a724082ef
+  cloudrail-si-objc-sdk: 889a989dd8df1ced61268b6841ba6a3ec400be8a
 
 PODFILE CHECKSUM: 4b1cd516e6cde9e2bdf4c6a162fec048770a1516
 

@@ -306,8 +306,9 @@
 				ORGANIZATIONNAME = "Felipe Cesar";
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
+						DevelopmentTeam = V3UJEPK4LT;
 						LastSwiftMigration = 0800;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -605,7 +606,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = V3UJEPK4LT;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CloudRail-SI-iOS/CloudRail-SI-iOS-Prefix.pch";
 				INFOPLIST_FILE = "CloudRail-SI-iOS/CloudRail-SI-iOS-Info.plist";
@@ -631,7 +633,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = V3UJEPK4LT;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CloudRail-SI-iOS/CloudRail-SI-iOS-Prefix.pch";
 				INFOPLIST_FILE = "CloudRail-SI-iOS/CloudRail-SI-iOS-Info.plist";
