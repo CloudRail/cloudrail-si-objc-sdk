@@ -332,7 +332,7 @@ More interfaces are coming soon.
 CloudRail-SI-iOS is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile (remember to put the `use_frameworks!` flag on top of the `Podfile`):
 ```ruby
-pod "cloudrail-si-ios-sdk"
+pod 'cloudrail-si-objc-sdk'
 ```
 Run `Pod install` again.
 
