@@ -42,4 +42,4 @@ if ([_serviceName isEqualToString:@"Facebook"]) {
 
 After choosing a service, enter a message and click on the "Post Update" button. The app will then post the update to the chosen social network service.
 
-![screenhot](https://github.com/CloudRail/cloudrail.github.io/raw/master/img/ios_demo_unified_social_profile.png)
+![screenhot](https://github.com/CloudRail/cloudrail.github.io/raw/master/img/ios_demo_unified_social_interaction.png)
