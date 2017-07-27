@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		080EE8C61F28B0ED00D9E4AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 080EE8C51F28B0ED00D9E4AE /* main.m */; };
+		080EE8C91F28B0ED00D9E4AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 080EE8C81F28B0ED00D9E4AE /* AppDelegate.m */; };
+		080EE8CF1F28B0ED00D9E4AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080EE8CD1F28B0ED00D9E4AE /* Main.storyboard */; };
+		080EE8D11F28B0ED00D9E4AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080EE8D01F28B0ED00D9E4AE /* Assets.xcassets */; };
+		080EE8D41F28B0ED00D9E4AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080EE8D21F28B0ED00D9E4AE /* LaunchScreen.storyboard */; };
+		080EE8DD1F28B19E00D9E4AE /* ServiceSelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 080EE8DC1F28B19E00D9E4AE /* ServiceSelectTableViewController.m */; };
+		080EE8E31F28B1B800D9E4AE /* ChargesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 080EE8E21F28B1B800D9E4AE /* ChargesTableViewController.m */; };
+		08E8FD361F29D74E0078F5EF /* ChargeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E8FD351F29D74E0078F5EF /* ChargeDetailViewController.m */; };
+		44E3EFFDE8CEC2812F26F2B1 /* Pods_UnifiedPayment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F0E0B97064E450BBAC4359 /* Pods_UnifiedPayment.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		080EE8C11F28B0ED00D9E4AE /* UnifiedPayment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnifiedPayment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		080EE8C51F28B0ED00D9E4AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		080EE8C71F28B0ED00D9E4AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		080EE8C81F28B0ED00D9E4AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		080EE8CE1F28B0ED00D9E4AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		080EE8D01F28B0ED00D9E4AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		080EE8D31F28B0ED00D9E4AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		080EE8D51F28B0ED00D9E4AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		080EE8DB1F28B19E00D9E4AE /* ServiceSelectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceSelectTableViewController.h; sourceTree = "<group>"; };
+		080EE8DC1F28B19E00D9E4AE /* ServiceSelectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceSelectTableViewController.m; sourceTree = "<group>"; };
+		080EE8E11F28B1B800D9E4AE /* ChargesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChargesTableViewController.h; sourceTree = "<group>"; };
+		080EE8E21F28B1B800D9E4AE /* ChargesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChargesTableViewController.m; sourceTree = "<group>"; };
+		08E8FD341F29D74E0078F5EF /* ChargeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChargeDetailViewController.h; sourceTree = "<group>"; };
+		08E8FD351F29D74E0078F5EF /* ChargeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChargeDetailViewController.m; sourceTree = "<group>"; };
+		1A72A9F9EF0EFBD8466888D1 /* Pods-UnifiedPayment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnifiedPayment.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnifiedPayment/Pods-UnifiedPayment.release.xcconfig"; sourceTree = "<group>"; };
+		C9F0E0B97064E450BBAC4359 /* Pods_UnifiedPayment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnifiedPayment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E894E1389AC853982315B57C /* Pods-UnifiedPayment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnifiedPayment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnifiedPayment/Pods-UnifiedPayment.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		080EE8BE1F28B0ED00D9E4AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E3EFFDE8CEC2812F26F2B1 /* Pods_UnifiedPayment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080EE8B81F28B0ED00D9E4AE = {
+			isa = PBXGroup;
+			children = (
+				080EE8C31F28B0ED00D9E4AE /* UnifiedPayment */,
+				080EE8C21F28B0ED00D9E4AE /* Products */,
+				FEF1716CE698F4EFF89CC7A4 /* Pods */,
+				A329BC29616D6C3C8806A5A3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		080EE8C21F28B0ED00D9E4AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				080EE8C11F28B0ED00D9E4AE /* UnifiedPayment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		080EE8C31F28B0ED00D9E4AE /* UnifiedPayment */ = {
+			isa = PBXGroup;
+			children = (
+				080EE8C71F28B0ED00D9E4AE /* AppDelegate.h */,
+				080EE8C81F28B0ED00D9E4AE /* AppDelegate.m */,
+				080EE8CD1F28B0ED00D9E4AE /* Main.storyboard */,
+				08E8FD341F29D74E0078F5EF /* ChargeDetailViewController.h */,
+				08E8FD351F29D74E0078F5EF /* ChargeDetailViewController.m */,
+				080EE8DB1F28B19E00D9E4AE /* ServiceSelectTableViewController.h */,
+				080EE8DC1F28B19E00D9E4AE /* ServiceSelectTableViewController.m */,
+				080EE8E11F28B1B800D9E4AE /* ChargesTableViewController.h */,
+				080EE8E21F28B1B800D9E4AE /* ChargesTableViewController.m */,
+				080EE8D01F28B0ED00D9E4AE /* Assets.xcassets */,
+				080EE8D21F28B0ED00D9E4AE /* LaunchScreen.storyboard */,
+				080EE8D51F28B0ED00D9E4AE /* Info.plist */,
+				080EE8C41F28B0ED00D9E4AE /* Supporting Files */,
+			);
+			path = UnifiedPayment;
+			sourceTree = "<group>";
+		};
+		080EE8C41F28B0ED00D9E4AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				080EE8C51F28B0ED00D9E4AE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A329BC29616D6C3C8806A5A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9F0E0B97064E450BBAC4359 /* Pods_UnifiedPayment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEF1716CE698F4EFF89CC7A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E894E1389AC853982315B57C /* Pods-UnifiedPayment.debug.xcconfig */,
+				1A72A9F9EF0EFBD8466888D1 /* Pods-UnifiedPayment.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		080EE8C01F28B0ED00D9E4AE /* UnifiedPayment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080EE8D81F28B0ED00D9E4AE /* Build configuration list for PBXNativeTarget "UnifiedPayment" */;
+			buildPhases = (
+				6A2DD49AC7D07E0D2FA50425 /* [CP] Check Pods Manifest.lock */,
+				080EE8BD1F28B0ED00D9E4AE /* Sources */,
+				080EE8BE1F28B0ED00D9E4AE /* Frameworks */,
+				080EE8BF1F28B0ED00D9E4AE /* Resources */,
+				557E211D2EAEA68ADC51124E /* [CP] Embed Pods Frameworks */,
+				2F7D4344078102792E790B6C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnifiedPayment;
+			productName = UnifiedPayment;
+			productReference = 080EE8C11F28B0ED00D9E4AE /* UnifiedPayment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		080EE8B91F28B0ED00D9E4AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = CloudRail;
+				TargetAttributes = {
+					080EE8C01F28B0ED00D9E4AE = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 080EE8BC1F28B0ED00D9E4AE /* Build configuration list for PBXProject "UnifiedPayment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 080EE8B81F28B0ED00D9E4AE;
+			productRefGroup = 080EE8C21F28B0ED00D9E4AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				080EE8C01F28B0ED00D9E4AE /* UnifiedPayment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		080EE8BF1F28B0ED00D9E4AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080EE8D41F28B0ED00D9E4AE /* LaunchScreen.storyboard in Resources */,
+				080EE8D11F28B0ED00D9E4AE /* Assets.xcassets in Resources */,
+				080EE8CF1F28B0ED00D9E4AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F7D4344078102792E790B6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnifiedPayment/Pods-UnifiedPayment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		557E211D2EAEA68ADC51124E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnifiedPayment/Pods-UnifiedPayment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A2DD49AC7D07E0D2FA50425 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		080EE8BD1F28B0ED00D9E4AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080EE8C91F28B0ED00D9E4AE /* AppDelegate.m in Sources */,
+				080EE8DD1F28B19E00D9E4AE /* ServiceSelectTableViewController.m in Sources */,
+				080EE8E31F28B1B800D9E4AE /* ChargesTableViewController.m in Sources */,
+				08E8FD361F29D74E0078F5EF /* ChargeDetailViewController.m in Sources */,
+				080EE8C61F28B0ED00D9E4AE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		080EE8CD1F28B0ED00D9E4AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				080EE8CE1F28B0ED00D9E4AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		080EE8D21F28B0ED00D9E4AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				080EE8D31F28B0ED00D9E4AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		080EE8D61F28B0ED00D9E4AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		080EE8D71F28B0ED00D9E4AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		080EE8D91F28B0ED00D9E4AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E894E1389AC853982315B57C /* Pods-UnifiedPayment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UnifiedPayment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudrail.UnifiedPayment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		080EE8DA1F28B0ED00D9E4AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A72A9F9EF0EFBD8466888D1 /* Pods-UnifiedPayment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UnifiedPayment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudrail.UnifiedPayment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		080EE8BC1F28B0ED00D9E4AE /* Build configuration list for PBXProject "UnifiedPayment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080EE8D61F28B0ED00D9E4AE /* Debug */,
+				080EE8D71F28B0ED00D9E4AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		080EE8D81F28B0ED00D9E4AE /* Build configuration list for PBXNativeTarget "UnifiedPayment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080EE8D91F28B0ED00D9E4AE /* Debug */,
+				080EE8DA1F28B0ED00D9E4AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 080EE8B91F28B0ED00D9E4AE /* Project object */;
+}

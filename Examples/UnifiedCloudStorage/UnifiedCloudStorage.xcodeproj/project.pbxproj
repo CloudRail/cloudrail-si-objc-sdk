@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0823AC331F2888C100576F70 /* folder.png in Resources */ = {isa = PBXBuildFile; fileRef = 0823AC311F2888C100576F70 /* folder.png */; };
+		0823AC341F2888C100576F70 /* file.png in Resources */ = {isa = PBXBuildFile; fileRef = 0823AC321F2888C100576F70 /* file.png */; };
+		08BDCE1B1F277C5F003FD21E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BDCE1A1F277C5F003FD21E /* main.m */; };
+		08BDCE1E1F277C5F003FD21E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BDCE1D1F277C5F003FD21E /* AppDelegate.m */; };
+		08BDCE241F277C5F003FD21E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08BDCE221F277C5F003FD21E /* Main.storyboard */; };
+		08BDCE261F277C5F003FD21E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08BDCE251F277C5F003FD21E /* Assets.xcassets */; };
+		08BDCE291F277C5F003FD21E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08BDCE271F277C5F003FD21E /* LaunchScreen.storyboard */; };
+		08BDCE381F277CEB003FD21E /* ShowFilesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BDCE371F277CEB003FD21E /* ShowFilesTableViewController.m */; };
+		08BDCE3B1F277CF4003FD21E /* SelectServiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BDCE3A1F277CF4003FD21E /* SelectServiceTableViewController.m */; };
+		33E322B97ADB1BD2E3A84121 /* Pods_UnifiedCloudStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC24AA39BCDD2B5848379D5 /* Pods_UnifiedCloudStorage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0823AC311F2888C100576F70 /* folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folder.png; sourceTree = "<group>"; };
+		0823AC321F2888C100576F70 /* file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file.png; sourceTree = "<group>"; };
+		08BDCE161F277C5F003FD21E /* UnifiedCloudStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnifiedCloudStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08BDCE1A1F277C5F003FD21E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08BDCE1C1F277C5F003FD21E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		08BDCE1D1F277C5F003FD21E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		08BDCE231F277C5F003FD21E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08BDCE251F277C5F003FD21E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08BDCE281F277C5F003FD21E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08BDCE2A1F277C5F003FD21E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08BDCE361F277CEB003FD21E /* ShowFilesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowFilesTableViewController.h; sourceTree = "<group>"; };
+		08BDCE371F277CEB003FD21E /* ShowFilesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowFilesTableViewController.m; sourceTree = "<group>"; };
+		08BDCE391F277CF4003FD21E /* SelectServiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectServiceTableViewController.h; sourceTree = "<group>"; };
+		08BDCE3A1F277CF4003FD21E /* SelectServiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectServiceTableViewController.m; sourceTree = "<group>"; };
+		6FC24AA39BCDD2B5848379D5 /* Pods_UnifiedCloudStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnifiedCloudStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D22288A1B5F84BDC48EE24 /* Pods-UnifiedCloudStorage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnifiedCloudStorage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnifiedCloudStorage/Pods-UnifiedCloudStorage.debug.xcconfig"; sourceTree = "<group>"; };
+		CB51354E3318F14B264AD932 /* Pods-UnifiedCloudStorage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnifiedCloudStorage.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnifiedCloudStorage/Pods-UnifiedCloudStorage.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08BDCE131F277C5F003FD21E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E322B97ADB1BD2E3A84121 /* Pods_UnifiedCloudStorage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0144D9F2B5891FDBC233D38B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FC24AA39BCDD2B5848379D5 /* Pods_UnifiedCloudStorage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08BDCE0D1F277C5F003FD21E = {
+			isa = PBXGroup;
+			children = (
+				08BDCE181F277C5F003FD21E /* UnifiedCloudStorage */,
+				08BDCE171F277C5F003FD21E /* Products */,
+				8D72F83521A39C32E289F283 /* Pods */,
+				0144D9F2B5891FDBC233D38B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		08BDCE171F277C5F003FD21E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08BDCE161F277C5F003FD21E /* UnifiedCloudStorage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08BDCE181F277C5F003FD21E /* UnifiedCloudStorage */ = {
+			isa = PBXGroup;
+			children = (
+				08BDCE1C1F277C5F003FD21E /* AppDelegate.h */,
+				08BDCE1D1F277C5F003FD21E /* AppDelegate.m */,
+				08BDCE221F277C5F003FD21E /* Main.storyboard */,
+				08BDCE251F277C5F003FD21E /* Assets.xcassets */,
+				08BDCE271F277C5F003FD21E /* LaunchScreen.storyboard */,
+				08BDCE2A1F277C5F003FD21E /* Info.plist */,
+				08BDCE191F277C5F003FD21E /* Supporting Files */,
+				08BDCE361F277CEB003FD21E /* ShowFilesTableViewController.h */,
+				08BDCE371F277CEB003FD21E /* ShowFilesTableViewController.m */,
+				08BDCE391F277CF4003FD21E /* SelectServiceTableViewController.h */,
+				08BDCE3A1F277CF4003FD21E /* SelectServiceTableViewController.m */,
+			);
+			path = UnifiedCloudStorage;
+			sourceTree = "<group>";
+		};
+		08BDCE191F277C5F003FD21E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0823AC311F2888C100576F70 /* folder.png */,
+				0823AC321F2888C100576F70 /* file.png */,
+				08BDCE1A1F277C5F003FD21E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D72F83521A39C32E289F283 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6D22288A1B5F84BDC48EE24 /* Pods-UnifiedCloudStorage.debug.xcconfig */,
+				CB51354E3318F14B264AD932 /* Pods-UnifiedCloudStorage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08BDCE151F277C5F003FD21E /* UnifiedCloudStorage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08BDCE2D1F277C5F003FD21E /* Build configuration list for PBXNativeTarget "UnifiedCloudStorage" */;
+			buildPhases = (
+				B937234B9BC05D16011ECE3E /* [CP] Check Pods Manifest.lock */,
+				08BDCE121F277C5F003FD21E /* Sources */,
+				08BDCE131F277C5F003FD21E /* Frameworks */,
+				08BDCE141F277C5F003FD21E /* Resources */,
+				C956949EE1139F5C79AC65A5 /* [CP] Embed Pods Frameworks */,
+				EE702A884DA2DEABD6B31BBC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnifiedCloudStorage;
+			productName = UnifiedCloudStorage;
+			productReference = 08BDCE161F277C5F003FD21E /* UnifiedCloudStorage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08BDCE0E1F277C5F003FD21E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = CloudRail;
+				TargetAttributes = {
+					08BDCE151F277C5F003FD21E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 08BDCE111F277C5F003FD21E /* Build configuration list for PBXProject "UnifiedCloudStorage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08BDCE0D1F277C5F003FD21E;
+			productRefGroup = 08BDCE171F277C5F003FD21E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08BDCE151F277C5F003FD21E /* UnifiedCloudStorage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08BDCE141F277C5F003FD21E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BDCE291F277C5F003FD21E /* LaunchScreen.storyboard in Resources */,
+				08BDCE261F277C5F003FD21E /* Assets.xcassets in Resources */,
+				08BDCE241F277C5F003FD21E /* Main.storyboard in Resources */,
+				0823AC331F2888C100576F70 /* folder.png in Resources */,
+				0823AC341F2888C100576F70 /* file.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B937234B9BC05D16011ECE3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C956949EE1139F5C79AC65A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnifiedCloudStorage/Pods-UnifiedCloudStorage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE702A884DA2DEABD6B31BBC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnifiedCloudStorage/Pods-UnifiedCloudStorage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08BDCE121F277C5F003FD21E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BDCE1E1F277C5F003FD21E /* AppDelegate.m in Sources */,
+				08BDCE3B1F277CF4003FD21E /* SelectServiceTableViewController.m in Sources */,
+				08BDCE381F277CEB003FD21E /* ShowFilesTableViewController.m in Sources */,
+				08BDCE1B1F277C5F003FD21E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		08BDCE221F277C5F003FD21E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08BDCE231F277C5F003FD21E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08BDCE271F277C5F003FD21E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08BDCE281F277C5F003FD21E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08BDCE2B1F277C5F003FD21E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		08BDCE2C1F277C5F003FD21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08BDCE2E1F277C5F003FD21E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6D22288A1B5F84BDC48EE24 /* Pods-UnifiedCloudStorage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UnifiedCloudStorage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudrail.UnifiedCloudStorage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		08BDCE2F1F277C5F003FD21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB51354E3318F14B264AD932 /* Pods-UnifiedCloudStorage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UnifiedCloudStorage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudrail.UnifiedCloudStorage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08BDCE111F277C5F003FD21E /* Build configuration list for PBXProject "UnifiedCloudStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08BDCE2B1F277C5F003FD21E /* Debug */,
+				08BDCE2C1F277C5F003FD21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08BDCE2D1F277C5F003FD21E /* Build configuration list for PBXNativeTarget "UnifiedCloudStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08BDCE2E1F277C5F003FD21E /* Debug */,
+				08BDCE2F1F277C5F003FD21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08BDCE0E1F277C5F003FD21E /* Project object */;
+}
