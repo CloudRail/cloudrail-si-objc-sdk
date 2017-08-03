@@ -1,6 +1,6 @@
 # Unified Social Profile Example
 
-This demo application let's you view profile informatin from several different social netowk and social login services (Facebook, GitHub, Google+, Heroku, Instagram, LinkedIn, Product Hunt, Slack, Twitter, Windows Live, Yahoo!).
+This demo application let's you view profile informatin from several different social network and social login services (Facebook, GitHub, Google+, Heroku, Instagram, LinkedIn, Product Hunt, Slack, Twitter, Windows Live, Yahoo!).
 It is written for iOS in Objective C and uses the [CloudRail Unified Social Profile API](https://cloudrail.com/integrations/interfaces/Profile). Want to build something similar? [Get started with CloudRail](https://cloudrail.com/signup) today, it's free.
 
 ## Prerequisites
