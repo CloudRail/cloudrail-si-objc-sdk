@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05BC2038676EBCFC0FA44C1F /* Pods_AdvancedAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C3D44AE8F4689275A2FC4A /* Pods_AdvancedAuthentication.framework */; };
+		0850450F1F3368CD001EE3C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0850450E1F3368CD001EE3C9 /* main.m */; };
+		085045121F3368CD001EE3C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 085045111F3368CD001EE3C9 /* AppDelegate.m */; };
+		085045181F3368CD001EE3C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 085045161F3368CD001EE3C9 /* Main.storyboard */; };
+		0850451A1F3368CD001EE3C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 085045191F3368CD001EE3C9 /* Assets.xcassets */; };
+		0850451D1F3368CD001EE3C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0850451B1F3368CD001EE3C9 /* LaunchScreen.storyboard */; };
+		085045261F336A14001EE3C9 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 085045251F336A14001EE3C9 /* TableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0850450A1F3368CD001EE3C9 /* AdvancedAuthentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedAuthentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0850450E1F3368CD001EE3C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		085045101F3368CD001EE3C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		085045111F3368CD001EE3C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		085045171F3368CD001EE3C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		085045191F3368CD001EE3C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0850451C1F3368CD001EE3C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0850451E1F3368CD001EE3C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		085045241F336A14001EE3C9 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		085045251F336A14001EE3C9 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		76C3D44AE8F4689275A2FC4A /* Pods_AdvancedAuthentication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdvancedAuthentication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E055DE77084D63543C229D8 /* Pods-AdvancedAuthentication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvancedAuthentication.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdvancedAuthentication/Pods-AdvancedAuthentication.debug.xcconfig"; sourceTree = "<group>"; };
+		D0FA552CC45B3CF1C509AC35 /* Pods-AdvancedAuthentication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvancedAuthentication.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdvancedAuthentication/Pods-AdvancedAuthentication.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		085045071F3368CD001EE3C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BC2038676EBCFC0FA44C1F /* Pods_AdvancedAuthentication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		085045011F3368CD001EE3C9 = {
+			isa = PBXGroup;
+			children = (
+				0850450C1F3368CD001EE3C9 /* AdvancedAuthentication */,
+				0850450B1F3368CD001EE3C9 /* Products */,
+				B7EA36DF7608C110E4B39AAA /* Pods */,
+				B93551B250995A13793CE18B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0850450B1F3368CD001EE3C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0850450A1F3368CD001EE3C9 /* AdvancedAuthentication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0850450C1F3368CD001EE3C9 /* AdvancedAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				085045101F3368CD001EE3C9 /* AppDelegate.h */,
+				085045111F3368CD001EE3C9 /* AppDelegate.m */,
+				085045161F3368CD001EE3C9 /* Main.storyboard */,
+				085045241F336A14001EE3C9 /* TableViewController.h */,
+				085045251F336A14001EE3C9 /* TableViewController.m */,
+				085045191F3368CD001EE3C9 /* Assets.xcassets */,
+				0850451B1F3368CD001EE3C9 /* LaunchScreen.storyboard */,
+				0850451E1F3368CD001EE3C9 /* Info.plist */,
+				0850450D1F3368CD001EE3C9 /* Supporting Files */,
+			);
+			path = AdvancedAuthentication;
+			sourceTree = "<group>";
+		};
+		0850450D1F3368CD001EE3C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0850450E1F3368CD001EE3C9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7EA36DF7608C110E4B39AAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E055DE77084D63543C229D8 /* Pods-AdvancedAuthentication.debug.xcconfig */,
+				D0FA552CC45B3CF1C509AC35 /* Pods-AdvancedAuthentication.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B93551B250995A13793CE18B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76C3D44AE8F4689275A2FC4A /* Pods_AdvancedAuthentication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		085045091F3368CD001EE3C9 /* AdvancedAuthentication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 085045211F3368CD001EE3C9 /* Build configuration list for PBXNativeTarget "AdvancedAuthentication" */;
+			buildPhases = (
+				64B2F16B1D4336263A42603B /* [CP] Check Pods Manifest.lock */,
+				085045061F3368CD001EE3C9 /* Sources */,
+				085045071F3368CD001EE3C9 /* Frameworks */,
+				085045081F3368CD001EE3C9 /* Resources */,
+				121119BCF0E91BCE5983EF7A /* [CP] Embed Pods Frameworks */,
+				EF74F24FF7B9C9C1C7BDF485 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdvancedAuthentication;
+			productName = AdvancedAuthentication;
+			productReference = 0850450A1F3368CD001EE3C9 /* AdvancedAuthentication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		085045021F3368CD001EE3C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = CloudRail;
+				TargetAttributes = {
+					085045091F3368CD001EE3C9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 085045051F3368CD001EE3C9 /* Build configuration list for PBXProject "AdvancedAuthentication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 085045011F3368CD001EE3C9;
+			productRefGroup = 0850450B1F3368CD001EE3C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				085045091F3368CD001EE3C9 /* AdvancedAuthentication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		085045081F3368CD001EE3C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0850451D1F3368CD001EE3C9 /* LaunchScreen.storyboard in Resources */,
+				0850451A1F3368CD001EE3C9 /* Assets.xcassets in Resources */,
+				085045181F3368CD001EE3C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		121119BCF0E91BCE5983EF7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdvancedAuthentication/Pods-AdvancedAuthentication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64B2F16B1D4336263A42603B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF74F24FF7B9C9C1C7BDF485 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdvancedAuthentication/Pods-AdvancedAuthentication-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		085045061F3368CD001EE3C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085045121F3368CD001EE3C9 /* AppDelegate.m in Sources */,
+				0850450F1F3368CD001EE3C9 /* main.m in Sources */,
+				085045261F336A14001EE3C9 /* TableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		085045161F3368CD001EE3C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				085045171F3368CD001EE3C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0850451B1F3368CD001EE3C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0850451C1F3368CD001EE3C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0850451F1F3368CD001EE3C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		085045201F3368CD001EE3C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		085045221F3368CD001EE3C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E055DE77084D63543C229D8 /* Pods-AdvancedAuthentication.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdvancedAuthentication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudrail.AdvancedAuthentication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		085045231F3368CD001EE3C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0FA552CC45B3CF1C509AC35 /* Pods-AdvancedAuthentication.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdvancedAuthentication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudrail.AdvancedAuthentication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		085045051F3368CD001EE3C9 /* Build configuration list for PBXProject "AdvancedAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0850451F1F3368CD001EE3C9 /* Debug */,
+				085045201F3368CD001EE3C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		085045211F3368CD001EE3C9 /* Build configuration list for PBXNativeTarget "AdvancedAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085045221F3368CD001EE3C9 /* Debug */,
+				085045231F3368CD001EE3C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 085045021F3368CD001EE3C9 /* Project object */;
+}
