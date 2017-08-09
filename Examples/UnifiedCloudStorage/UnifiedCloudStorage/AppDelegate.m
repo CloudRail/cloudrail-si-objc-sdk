@@ -48,5 +48,16 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+// This method will receive the redirect URI after the authentication process was
+// successfull
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    
+    // Here we pass the response to the SDK which will automatically
+    // complete the authentication process.
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"kCloseSafariViewControllerNotification" object:url];
+    
+    return YES;
+}
+
 
 @end

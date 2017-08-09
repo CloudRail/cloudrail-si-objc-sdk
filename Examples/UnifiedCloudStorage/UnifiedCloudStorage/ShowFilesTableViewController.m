@@ -33,9 +33,10 @@
     } else if ([_serviceName isEqualToString:@"Dropbox"]) {
         _service = [[CRDropbox alloc] initWithClientId:@"[Dropbox Client Identifier]"
                                           clientSecret:@"[Dropbox Client Secret]"
-                                           redirectUri:@"https://www.cloudrailauth.com/auth"
+                                           redirectUri:@"https://auth.cloudrail.com/com.cloudrail.UnifiedCloudStorage"
                                                  state:@"someState"
                     ];
+        [((CRDropbox *)_service) useAdvancedAuthentication];
     } else if ([_serviceName isEqualToString:@"Egnyte"]) {
                 _service = [[CREgnyte alloc] initWithDomain:@"[Your Egnyte Domain]"
                                                    clientId:@"[Your Egnyte API Key]"
@@ -45,10 +46,11 @@
                     ];
     } else if ([_serviceName isEqualToString:@"Google Drive"]) {
         _service = [[CRGoogleDrive alloc] initWithClientId:@"[Google Drive Client Identifier]"
-                                              clientSecret:@"[Google Drive Client Secret]"
-                                               redirectUri:@"https://www.cloudrailauth.com/auth"
+                                              clientSecret:@""
+                                               redirectUri:@"com.cloudrail.AdvancedAuthentication:/oauth2redirect"
                                                      state:@"someState"
                     ];
+        [((CRGoogleDrive *)_service) useAdvancedAuthentication];
     } else if ([_serviceName isEqualToString:@"OneDrive"]) {
         _service = [[CROneDrive alloc] initWithClientId:@"[OneDrive Client Identifier]"
                                            clientSecret:@"[OneDrive Client Secret]"
