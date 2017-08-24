@@ -24,6 +24,10 @@
 		<data>
 		LkbPqTHZDnJWHEyjRose+BisZ0I=
 		</data>
+		<key>Headers/CRAttachment.h</key>
+		<data>
+		oGyKkbd0x90MLuTo+ovpkfySUzo=
+		</data>
 		<key>Headers/CRAuthenticatingProtocol.h</key>
 		<data>
 		DmwDqVKVrInuJcpr0J6+7Ok/FBU=
@@ -82,7 +86,7 @@
 		</data>
 		<key>Headers/CREmailProtocol.h</key>
 		<data>
-		CQGga2LVZaryyI+hP1uOX0rkeJg=
+		LLwc/H/TRk2lxnlkIbbPtvsFFy4=
 		</data>
 		<key>Headers/CRError.h</key>
 		<data>
@@ -114,7 +118,7 @@
 		</data>
 		<key>Headers/CRGoogleDrive.h</key>
 		<data>
-		FT0E+/KykRwfIz5iIUptm935LZA=
+		tn7MHbHC/a9gsDGVHDJzVJR+Q/0=
 		</data>
 		<key>Headers/CRGooglePlaces.h</key>
 		<data>
@@ -266,7 +270,7 @@
 		</data>
 		<key>Headers/CRYelp.h</key>
 		<data>
-		uWspvjjRJKFsLY3LeL62ppSrmnw=
+		zXD00SXQdy+2nxNCogmvRW5FC8s=
 		</data>
 		<key>Headers/CloudRailSI.h</key>
 		<data>
@@ -278,7 +282,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KSaut95elC8Pb90YDbn+clXGg2Q=
+		8obx6/DkVVCSGvTs1QofGRQu2PA=
 		</data>
 		<key>LICENSE.txt</key>
 		<data>
@@ -372,6 +376,17 @@
 			<key>hash2</key>
 			<data>
 			mUJpzj7MJLuxhZ781BuvrzR2eJqpgaD76oFCkJn0d24=
+			</data>
+		</dict>
+		<key>Headers/CRAttachment.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oGyKkbd0x90MLuTo+ovpkfySUzo=
+			</data>
+			<key>hash2</key>
+			<data>
+			BAp5YE4bCGT762oBa4Cq0cAPrFxE3bGz5iieNViE/Nc=
 			</data>
 		</dict>
 		<key>Headers/CRAuthenticatingProtocol.h</key>
@@ -532,11 +547,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CQGga2LVZaryyI+hP1uOX0rkeJg=
+			LLwc/H/TRk2lxnlkIbbPtvsFFy4=
 			</data>
 			<key>hash2</key>
 			<data>
-			2F+PpPGBdGiG5K1aTt+12aJUtGDTmg0XaPCWsEWIcC0=
+			uaLhnuCaiaEU//lRaC9GpNx7IhSIDydmfszkd5xacqg=
 			</data>
 		</dict>
 		<key>Headers/CRError.h</key>
@@ -620,11 +635,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FT0E+/KykRwfIz5iIUptm935LZA=
+			tn7MHbHC/a9gsDGVHDJzVJR+Q/0=
 			</data>
 			<key>hash2</key>
 			<data>
-			AET5x4co2my5j4OwTVVaTS5sn3Gk9badxW31vMWsqr4=
+			KdEPENoz6yqY9LMB1CY20ZegwnAb/Er2ozwOPpdxrZs=
 			</data>
 		</dict>
 		<key>Headers/CRGooglePlaces.h</key>
@@ -1038,11 +1053,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uWspvjjRJKFsLY3LeL62ppSrmnw=
+			zXD00SXQdy+2nxNCogmvRW5FC8s=
 			</data>
 			<key>hash2</key>
 			<data>
-			OSsKUVa3O/lZyC5D8rFzOMsmkTO6Qba2ZJciAyOF0Qs=
+			wGrRX4doIbyIrCw15wUeYuTrzuszctgKV+lWHmXGGio=
 			</data>
 		</dict>
 		<key>Headers/CloudRailSI.h</key>
