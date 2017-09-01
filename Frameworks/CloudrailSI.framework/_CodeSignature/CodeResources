@@ -112,6 +112,10 @@
 		<data>
 		XB7AmOsZoN+xTE7hv/mgz/JCBDE=
 		</data>
+		<key>Headers/CRGMail.h</key>
+		<data>
+		AGw4+ItApr+DkSDaLHHx3/rIUxM=
+		</data>
 		<key>Headers/CRGitHub.h</key>
 		<data>
 		iYozrJd4xlzRZXjoz0iIsPGH9YE=
@@ -298,7 +302,7 @@
 		</data>
 		<key>Headers/CloudRailSI.h</key>
 		<data>
-		C9DpvQelHKspLoqQGCSKtoQlgrQ=
+		AJsskwbqDlAYteaGBuZG5OIn3TA=
 		</data>
 		<key>Headers/CustomStream.h</key>
 		<data>
@@ -642,6 +646,17 @@
 			<key>hash2</key>
 			<data>
 			cuzul6YRpU53xWz/NVIOBI4ce7PUqfJH/dNPkIF+e4s=
+			</data>
+		</dict>
+		<key>Headers/CRGMail.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AGw4+ItApr+DkSDaLHHx3/rIUxM=
+			</data>
+			<key>hash2</key>
+			<data>
+			un5zPYyk3Ilgd3c0RVrnoYOM+FIYGj4s3Fubo0M+uZc=
 			</data>
 		</dict>
 		<key>Headers/CRGitHub.h</key>
@@ -1154,11 +1169,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			C9DpvQelHKspLoqQGCSKtoQlgrQ=
+			AJsskwbqDlAYteaGBuZG5OIn3TA=
 			</data>
 			<key>hash2</key>
 			<data>
-			XHj3cHqJe7cObO5COaYj2NBYH5c4kFBRtN5W3evBHU0=
+			XF4d5kNd/k5w+qH3tWkRc3KbNYRf+bFeH2Uj4pSbF2I=
 			</data>
 		</dict>
 		<key>Headers/CustomStream.h</key>
