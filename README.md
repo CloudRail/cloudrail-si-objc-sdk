@@ -70,6 +70,7 @@ Payment | PayPal, Stripe
 Email | Maljet, Sendgrid
 SMS | Twilio, Nexmo
 Point of Interest | Google Places, Foursquare, Yelp
+Video | Youtube, Twitch, Vimeo
 
 ---
 ### Cloud Storage Interface:
@@ -239,6 +240,7 @@ NSLog(@"Sub plan %@", subPlan);
 
 * Mailjet
 * Sendgrid
+* Gmail
 
 #### Features
 
@@ -250,11 +252,17 @@ NSLog(@"Sub plan %@", subPlan);
 ```objective-c
 id<CREmailProtocol> service;
 
-//  service = [[CRMailJet alloc] initWithClientId:key clientSecret:secret];
+//  service = [[CRMailJet alloc] initWithClientId:@"key" clientSecret:@"secret"];
+// service = [[CRGMail alloc] initWithClientID:@"[GMail Client Identifier]" clientSecret:@"" redirectUri:@"com.cloudrail.example:/auth" state:@"someState"];
+//[service useAdvancedAuthentication]; //required for Gmail
 
-service = [[CRSendGrid alloc] initWithUsername:key password:secret];
+service = [[CRSendGrid alloc]initWithUsername:@"key" password:@"secret"];
 
-[service sendEmailFromAddress:@"cloudrail@cloudrail.com" fromName:@"Bob" toAddresses:[@[@"foo@gmail.com",@"bar@gmail.com"] mutableCopy] subject:@"Mailjet and SendGrid" textBody:@"The Mailjet and Sendgrid is on cloudrail now!!!" htmlBody:@"" ccAddresses:[@[]mutableCopy] bccAddresses:[@[] mutableCopy]];
+CRAttachment *attachImage = [[CRAttachment alloc] initWithContent:NSInputStream type:"image/jpg" name:"fileName"];
+NSMutableArray *attachments = [[NSMutableArray alloc] init];
+[attachments addObject:attachImage];
+
+[service sendEmailFromAddress:@"cloudrail@cloudrail.com" fromName:@"Bob" toAddresses:[@[@"foo@gmail.com",@"bar@gmail.com"] mutableCopy] subject:@"Mailjet and SendGrid" textBody:@"The Mailjet and Sendgrid is on cloudrail now!!!" htmlBody:@"" ccAddresses:[@[]mutableCopy] bccAddresses:[@[] mutableCopy], attachments:attachments];
 ```
 
 ---
@@ -310,6 +318,50 @@ NSLog(@"%@", pois);
 ```
 ---
 
+### Video Interface:
+
+* Youtube
+* Twitch
+* Vimeo
+
+#### Features
+
+* Search for videos
+* Upload videos
+* Get a list of videos for a channel
+* Get channel details
+* Get your own channel details
+* Get video details 
+
+#### Code Example - Objective-C
+[Full Documentation](https://cloudrail.com/integrations/interfaces/Video;platformId=ObjectiveC)
+
+```objective-c
+id<CRVideoProtocol> service;
+
+//  service = [[CRTwitch alloc] initWithClientId:@"[Twitch Client Identifier]" clientSecret:@"[Twitch Client Secret]"];
+//  service = [[CRVimeo alloc] initWithClientId:@"[Vimeo Client Identifier]" clientSecret:@"[Vimeo Client Secret]"];
+
+service = [[CRYouTube alloc] initWithClientId:@"[YouTube Client Identifier]" clientSecret:@"" redirectUri:@"com.cloudrail.example:/auth" state:@"someState"];
+[service useAdvancedAuthentication]; //required for Youtube
+
+
+NSMutableArray<CRVideoMetaData *> * searchResult = [service searchVideosWithQueryQuery:@"CloudRail" offset:[NSNumber numberWithInt: 0] limit:[NSNumber numberWithInt: 12]];
+
+NSLog(@"%@", searchResult);
+
+CRVideoMetaData * uploadResult = [service uploadVideoWithTitleTitle:@"HowTo: Setup CloudRail" 
+        description:@"Video about Setting up CloudRail" 
+        stream:NSInputStream 
+        size:[NSNumber numberWithInt: 1448576] 
+        channelId:@"70207321" 
+        mimeType:@"video/mp4"
+]; //ChannelId optional for youtube
+
+NSLog(@"%@", uploadResult);
+
+```
+---
 
 More interfaces are coming soon.
 
