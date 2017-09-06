@@ -36,10 +36,11 @@
                      ];
     } else if ([_serviceName isEqualToString:@"Google+"]) {
         _service = [[CRGooglePlus alloc] initWithClientId:@"[Google Plus Client Identifier]"
-                                             clientSecret:@"[Google Plus Client Secret]"
-                                              redirectUri:@"https://www.cloudrailauth.com/auth"
+                                             clientSecret:@""
+                                              redirectUri:@"com.cloudrail.UnifiedSocialProfile:/oauth2redirect"
                                                     state:@"someState"
                     ];
+        [((CRGooglePlus*) _service) useAdvancedAuthentication];
     } else if ([_serviceName isEqualToString:@"Heroku"]) {
         _service = [[CRHeroku alloc] initWithClientId:@"[Heroku Client Identifier]"
                                          clientSecret:@"[Heroku Client Secret]"
