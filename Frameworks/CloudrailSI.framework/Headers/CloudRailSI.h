@@ -15,7 +15,7 @@ FOUNDATION_EXPORT double CloudRailSIVersionNumber;
 FOUNDATION_EXPORT const unsigned char CloudRailSIString[];
 
 // To use the framework just do #import <CloudRailSI/CloudRailSI.h>
-#import <CloudRailSI/CRCloudrail.h>
+#import <CloudRailSI/CRCloudRail.h>
 
 #pragma mark - CloudStorage
 #import <CloudRailSI/CRDropbox.h>
@@ -63,12 +63,15 @@ FOUNDATION_EXPORT const unsigned char CloudRailSIString[];
 #import <CloudRailSI/CRTwilio.h>
 #import <CloudRailSI/CRTwizo.h>
 
-
-
 #pragma mark - Email
 #import <CloudRailSI/CRSendGrid.h>
 #import <CloudRailSI/CRMailJet.h>
+#import <CloudRailSI/CRGMail.h>
 
+#pragma mark - Video
+#import <CloudRailSI/CRYouTube.h>
+#import <CloudRailSI/CRTwitch.h>
+#import <CloudRailSI/CRVimeo.h>
 
 #pragma mark - Protocols
 #import <CloudRailSI/CRCloudStorageProtocol.h>
@@ -82,6 +85,8 @@ FOUNDATION_EXPORT const unsigned char CloudRailSIString[];
 #import <CloudRailSI/CRSocialProtocol.h>
 #import <CloudRailSI/CRBusinessCloudStorageProtocol.h>
 #import <CloudRailSI/CRAdvancedRequestSupporterProtocol.h>
+
+#import <CloudRailSI/CRVideoProtocol.h>
 
 #pragma mark - ClourRail types
 #import <CloudRailSI/CRAddress.h>
@@ -102,6 +107,11 @@ FOUNDATION_EXPORT const unsigned char CloudRailSIString[];
 #import <CloudRailSI/CRAdvancedRequestSpecification.h>
 #import <CloudRailSI/CustomStream.h>
 #import <CloudRailSI/CRUploadProgressDelegate.h>
+
+
+#import <CloudRailSI/CRVideoMetaData.h>
+#import <CloudRailSI/CRChannelMetaData.h>
+
 
 #pragma mark - Swift Helpers
 #import <CloudRailSI/CRError.h>

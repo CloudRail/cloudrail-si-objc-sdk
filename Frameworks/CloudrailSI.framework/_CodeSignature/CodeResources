@@ -24,6 +24,10 @@
 		<data>
 		LkbPqTHZDnJWHEyjRose+BisZ0I=
 		</data>
+		<key>Headers/CRAttachment.h</key>
+		<data>
+		oGyKkbd0x90MLuTo+ovpkfySUzo=
+		</data>
 		<key>Headers/CRAuthenticatingProtocol.h</key>
 		<data>
 		DmwDqVKVrInuJcpr0J6+7Ok/FBU=
@@ -47,6 +51,10 @@
 		<key>Headers/CRBusinessFileMetaData.h</key>
 		<data>
 		9nPEpDa88uk6i6gurDi2eg2kiM0=
+		</data>
+		<key>Headers/CRChannelMetaData.h</key>
+		<data>
+		ypvOVmxD4LyHDtN/FZOEh3vFVMU=
 		</data>
 		<key>Headers/CRCharge.h</key>
 		<data>
@@ -82,7 +90,7 @@
 		</data>
 		<key>Headers/CREmailProtocol.h</key>
 		<data>
-		CQGga2LVZaryyI+hP1uOX0rkeJg=
+		LLwc/H/TRk2lxnlkIbbPtvsFFy4=
 		</data>
 		<key>Headers/CRError.h</key>
 		<data>
@@ -104,6 +112,10 @@
 		<data>
 		XB7AmOsZoN+xTE7hv/mgz/JCBDE=
 		</data>
+		<key>Headers/CRGMail.h</key>
+		<data>
+		AGw4+ItApr+DkSDaLHHx3/rIUxM=
+		</data>
 		<key>Headers/CRGitHub.h</key>
 		<data>
 		iYozrJd4xlzRZXjoz0iIsPGH9YE=
@@ -114,7 +126,7 @@
 		</data>
 		<key>Headers/CRGoogleDrive.h</key>
 		<data>
-		FT0E+/KykRwfIz5iIUptm935LZA=
+		tn7MHbHC/a9gsDGVHDJzVJR+Q/0=
 		</data>
 		<key>Headers/CRGooglePlaces.h</key>
 		<data>
@@ -248,6 +260,10 @@
 		<data>
 		Bif6GxZvKZKdd+i+5nVC2AIdbO0=
 		</data>
+		<key>Headers/CRTwitch.h</key>
+		<data>
+		cbbYsyz9orEnPcB/MVbuZU1ShlA=
+		</data>
 		<key>Headers/CRTwitter.h</key>
 		<data>
 		nnALViRzWWbaLF/bdR+vjEB/A7s=
@@ -260,17 +276,33 @@
 		<data>
 		gGYLVFMaHayArhfZo4ZjVn+aZjQ=
 		</data>
+		<key>Headers/CRVideoMetaData.h</key>
+		<data>
+		AQbUSdmPNuaHncCYnDTAnhiB1JM=
+		</data>
+		<key>Headers/CRVideoProtocol.h</key>
+		<data>
+		0ydIrChzHpEpsznSwjm8mDLvIUQ=
+		</data>
+		<key>Headers/CRVimeo.h</key>
+		<data>
+		eBM5nV2tbR/XCtVArp7Q+8N3ktE=
+		</data>
 		<key>Headers/CRYahoo.h</key>
 		<data>
 		bdc4HW8P+z02pDupPkSw64Vf14Q=
 		</data>
 		<key>Headers/CRYelp.h</key>
 		<data>
-		uWspvjjRJKFsLY3LeL62ppSrmnw=
+		zXD00SXQdy+2nxNCogmvRW5FC8s=
+		</data>
+		<key>Headers/CRYouTube.h</key>
+		<data>
+		Ek7UzFhe5x5X2+clGNgYYAuKzzg=
 		</data>
 		<key>Headers/CloudRailSI.h</key>
 		<data>
-		XkW43yJP2fSHymBZyr6aHgFioiI=
+		AJsskwbqDlAYteaGBuZG5OIn3TA=
 		</data>
 		<key>Headers/CustomStream.h</key>
 		<data>
@@ -278,7 +310,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KSaut95elC8Pb90YDbn+clXGg2Q=
+		aUvf7oDpMtNE02gLwMJzAdL8hR0=
 		</data>
 		<key>LICENSE.txt</key>
 		<data>
@@ -374,6 +406,17 @@
 			mUJpzj7MJLuxhZ781BuvrzR2eJqpgaD76oFCkJn0d24=
 			</data>
 		</dict>
+		<key>Headers/CRAttachment.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oGyKkbd0x90MLuTo+ovpkfySUzo=
+			</data>
+			<key>hash2</key>
+			<data>
+			BAp5YE4bCGT762oBa4Cq0cAPrFxE3bGz5iieNViE/Nc=
+			</data>
+		</dict>
 		<key>Headers/CRAuthenticatingProtocol.h</key>
 		<dict>
 			<key>hash</key>
@@ -438,6 +481,17 @@
 			<key>hash2</key>
 			<data>
 			+/GQ819Pgz2CoY+ZL3WAu4MY5x1MrsgXqC89qEy1eIM=
+			</data>
+		</dict>
+		<key>Headers/CRChannelMetaData.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ypvOVmxD4LyHDtN/FZOEh3vFVMU=
+			</data>
+			<key>hash2</key>
+			<data>
+			5lvQvIneOhNOr7Uvw0pBfIA6zdvVMly3iHROdeBNqZs=
 			</data>
 		</dict>
 		<key>Headers/CRCharge.h</key>
@@ -532,11 +586,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CQGga2LVZaryyI+hP1uOX0rkeJg=
+			LLwc/H/TRk2lxnlkIbbPtvsFFy4=
 			</data>
 			<key>hash2</key>
 			<data>
-			2F+PpPGBdGiG5K1aTt+12aJUtGDTmg0XaPCWsEWIcC0=
+			uaLhnuCaiaEU//lRaC9GpNx7IhSIDydmfszkd5xacqg=
 			</data>
 		</dict>
 		<key>Headers/CRError.h</key>
@@ -594,6 +648,17 @@
 			cuzul6YRpU53xWz/NVIOBI4ce7PUqfJH/dNPkIF+e4s=
 			</data>
 		</dict>
+		<key>Headers/CRGMail.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AGw4+ItApr+DkSDaLHHx3/rIUxM=
+			</data>
+			<key>hash2</key>
+			<data>
+			un5zPYyk3Ilgd3c0RVrnoYOM+FIYGj4s3Fubo0M+uZc=
+			</data>
+		</dict>
 		<key>Headers/CRGitHub.h</key>
 		<dict>
 			<key>hash</key>
@@ -620,11 +685,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FT0E+/KykRwfIz5iIUptm935LZA=
+			tn7MHbHC/a9gsDGVHDJzVJR+Q/0=
 			</data>
 			<key>hash2</key>
 			<data>
-			AET5x4co2my5j4OwTVVaTS5sn3Gk9badxW31vMWsqr4=
+			KdEPENoz6yqY9LMB1CY20ZegwnAb/Er2ozwOPpdxrZs=
 			</data>
 		</dict>
 		<key>Headers/CRGooglePlaces.h</key>
@@ -990,6 +1055,17 @@
 			3YAXOphm5Fqnt2UKUPxcHUYZ8hlGAQ1/2NOQldRxC2Q=
 			</data>
 		</dict>
+		<key>Headers/CRTwitch.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cbbYsyz9orEnPcB/MVbuZU1ShlA=
+			</data>
+			<key>hash2</key>
+			<data>
+			sShDlp9/nOAwZ398g19e8M4EKv3D5LU0glu/OSrTgRw=
+			</data>
+		</dict>
 		<key>Headers/CRTwitter.h</key>
 		<dict>
 			<key>hash</key>
@@ -1023,6 +1099,39 @@
 			CQFQoqAcLkEGtQp47VxbOl9MUhaWFHbrYSfOD3tGlZI=
 			</data>
 		</dict>
+		<key>Headers/CRVideoMetaData.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AQbUSdmPNuaHncCYnDTAnhiB1JM=
+			</data>
+			<key>hash2</key>
+			<data>
+			B3WcZNB7Gki4NL7sBdgSkbGISTRn2GBPFYN1Du7utpY=
+			</data>
+		</dict>
+		<key>Headers/CRVideoProtocol.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0ydIrChzHpEpsznSwjm8mDLvIUQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			x+4u88Lr1QKfyM7TZnhq5bM0XNUJzApZ4Agm0jZUqPY=
+			</data>
+		</dict>
+		<key>Headers/CRVimeo.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			eBM5nV2tbR/XCtVArp7Q+8N3ktE=
+			</data>
+			<key>hash2</key>
+			<data>
+			svaA0zbyLUOg0IbmerAvDYvoYLi1xVRx9sOnnq2WFAA=
+			</data>
+		</dict>
 		<key>Headers/CRYahoo.h</key>
 		<dict>
 			<key>hash</key>
@@ -1038,22 +1147,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uWspvjjRJKFsLY3LeL62ppSrmnw=
+			zXD00SXQdy+2nxNCogmvRW5FC8s=
 			</data>
 			<key>hash2</key>
 			<data>
-			OSsKUVa3O/lZyC5D8rFzOMsmkTO6Qba2ZJciAyOF0Qs=
+			wGrRX4doIbyIrCw15wUeYuTrzuszctgKV+lWHmXGGio=
+			</data>
+		</dict>
+		<key>Headers/CRYouTube.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ek7UzFhe5x5X2+clGNgYYAuKzzg=
+			</data>
+			<key>hash2</key>
+			<data>
+			tsd/JkvAdS/94kbksEUILtOGPA4Qu3DmF3fIILL3PsM=
 			</data>
 		</dict>
 		<key>Headers/CloudRailSI.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XkW43yJP2fSHymBZyr6aHgFioiI=
+			AJsskwbqDlAYteaGBuZG5OIn3TA=
 			</data>
 			<key>hash2</key>
 			<data>
-			/0Bhr7J+RxYyjPGyAa9Ho2a7WXBAL32Hlf1ky83c1MA=
+			XF4d5kNd/k5w+qH3tWkRc3KbNYRf+bFeH2Uj4pSbF2I=
 			</data>
 		</dict>
 		<key>Headers/CustomStream.h</key>
