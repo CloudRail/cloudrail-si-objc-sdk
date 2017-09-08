@@ -17,6 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //https://cloudrail.com/signup
     [CRCloudRail setAppKey:@"[Your CloudRail Key]"];
     return YES;
 }
