@@ -148,6 +148,10 @@
 		<data>
 		Ny7PWJ/cDaguqqd+9CFyDkFU/H8=
 		</data>
+		<key>Headers/CRLine.h</key>
+		<data>
+		Qc5Pk4l3wwvThEKm5kB3ANdqaTU=
+		</data>
 		<key>Headers/CRLinkedIn.h</key>
 		<data>
 		Sd8iY08Qpyq2yrKgiFQOAWF4/TU=
@@ -159,6 +163,18 @@
 		<key>Headers/CRMailJet.h</key>
 		<data>
 		duOQTTwOuXLjH5X8LYb2u7kU7mo=
+		</data>
+		<key>Headers/CRMessage.h</key>
+		<data>
+		cD/yffeES0h0eETfq1WUNs9TDgI=
+		</data>
+		<key>Headers/CRMessagingAttachment.h</key>
+		<data>
+		5fvP0R0BkDRs2ZwaD71jlqJIzNo=
+		</data>
+		<key>Headers/CRMessagingProtocol.h</key>
+		<data>
+		0y67rsIElYwNcOKXSpoFR5JU4hw=
 		</data>
 		<key>Headers/CRMicrosoft.h</key>
 		<data>
@@ -256,6 +272,10 @@
 		<data>
 		bLb49iBctfLXcIhvtYKTcCBuLSc=
 		</data>
+		<key>Headers/CRTelegram.h</key>
+		<data>
+		QogcDo0wgj6a5+erqY66nqddVBk=
+		</data>
 		<key>Headers/CRTwilio.h</key>
 		<data>
 		Bif6GxZvKZKdd+i+5nVC2AIdbO0=
@@ -302,7 +322,7 @@
 		</data>
 		<key>Headers/CloudRailSI.h</key>
 		<data>
-		AJsskwbqDlAYteaGBuZG5OIn3TA=
+		L1BDGMfFfLEM9e8Xfm5gSZwnBvw=
 		</data>
 		<key>Headers/CustomStream.h</key>
 		<data>
@@ -310,7 +330,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		aUvf7oDpMtNE02gLwMJzAdL8hR0=
+		c2iFTzlCpUDcDWh8NGIPbaL5UYY=
 		</data>
 		<key>LICENSE.txt</key>
 		<data>
@@ -747,6 +767,17 @@
 			gq/ho+8+QQlBsLDVnvmAzc4E0+KmecurORXenSX/rIg=
 			</data>
 		</dict>
+		<key>Headers/CRLine.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Qc5Pk4l3wwvThEKm5kB3ANdqaTU=
+			</data>
+			<key>hash2</key>
+			<data>
+			hRRNdMbIOYcVMa2dqUGm4mfJ+ZNr4OWDCkxV71TfLPw=
+			</data>
+		</dict>
 		<key>Headers/CRLinkedIn.h</key>
 		<dict>
 			<key>hash</key>
@@ -778,6 +809,39 @@
 			<key>hash2</key>
 			<data>
 			QfXWuWClTHhSZr99hecXMReOY8GkdzZIvCoQrYzeQH8=
+			</data>
+		</dict>
+		<key>Headers/CRMessage.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cD/yffeES0h0eETfq1WUNs9TDgI=
+			</data>
+			<key>hash2</key>
+			<data>
+			2xX1x/Hz77gALK56B+S8yt/x015GJsBqaHEwdHtZCd8=
+			</data>
+		</dict>
+		<key>Headers/CRMessagingAttachment.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5fvP0R0BkDRs2ZwaD71jlqJIzNo=
+			</data>
+			<key>hash2</key>
+			<data>
+			lMwzQJlw69EaAde0HAZ+eqLia/4rG9ET7DlEpmn2JUQ=
+			</data>
+		</dict>
+		<key>Headers/CRMessagingProtocol.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0y67rsIElYwNcOKXSpoFR5JU4hw=
+			</data>
+			<key>hash2</key>
+			<data>
+			sDAhNdj2Gt2rvxCnfFLbiKA2/7Hhhzvni/ey/CWLAAc=
 			</data>
 		</dict>
 		<key>Headers/CRMicrosoft.h</key>
@@ -1044,6 +1108,17 @@
 			pmwN5z8gE4MGbcqQGSNbzn5gILy9RAGqc2EsVIpx1vE=
 			</data>
 		</dict>
+		<key>Headers/CRTelegram.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QogcDo0wgj6a5+erqY66nqddVBk=
+			</data>
+			<key>hash2</key>
+			<data>
+			4nsCAcoqSdYsCabcg3w/vixSRoP75rc53H6mR3EEGQ8=
+			</data>
+		</dict>
 		<key>Headers/CRTwilio.h</key>
 		<dict>
 			<key>hash</key>
@@ -1169,11 +1244,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AJsskwbqDlAYteaGBuZG5OIn3TA=
+			L1BDGMfFfLEM9e8Xfm5gSZwnBvw=
 			</data>
 			<key>hash2</key>
 			<data>
-			XF4d5kNd/k5w+qH3tWkRc3KbNYRf+bFeH2Uj4pSbF2I=
+			dsLNGynRcW9rLF5Ow/BWgi3VYxz1LdlmcePLU9altEA=
 			</data>
 		</dict>
 		<key>Headers/CustomStream.h</key>
