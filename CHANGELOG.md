@@ -1,5 +1,13 @@
 # Change Log
 
+## [5.9.3](https://github.com/CloudRail/cloudrail-si-ios-sdk/tree/5.9.3) (2017-10-17)
+[Full Changelog](https://github.com/CloudRail/cloudrail-si-ios-sdk/compare/5.9.2...5.9.3)
+
+* Added New Messaging Interfaces (Facebook / Viber)
+* Fixed Amazon S3 pagination issue
+* Fixed for CloudStorage (OneDrive, Google Drive, Box and Dropbox)
+* Fixed OneDrive Business
+
 ## [5.9.2](https://github.com/CloudRail/cloudrail-si-ios-sdk/tree/5.9.2) (2017-10-09)
 [Full Changelog](https://github.com/CloudRail/cloudrail-si-ios-sdk/compare/5.9.1...5.9.2)
 
@@ -43,6 +51,7 @@
 [Full Changelog](https://github.com/CloudRail/cloudrail-si-ios-sdk/compare/5.7.0...5.8.0)
 
 * Added new Video Interface (CRVideoProtocol) **Youtube** , **Twitch** and **Vimeo**
+
 
 ## [5.5.1](https://github.com/CloudRail/cloudrail-si-ios-sdk/tree/5.5.1) (2017-05-28)
 +[Full Changelog](https://github.com/CloudRail/cloudrail-si-ios-sdk/compare/5.5.0...5.5.1)
