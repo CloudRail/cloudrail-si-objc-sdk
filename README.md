@@ -71,6 +71,7 @@ Email | Maljet, Sendgrid, Gmail
 SMS | Twilio, Nexmo
 Point of Interest | Google Places, Foursquare, Yelp
 Video | Youtube, Twitch, Vimeo
+Messaging | Facebook Messenger, Telegram, Line, Viber
 
 ---
 ### Cloud Storage Interface:
@@ -361,6 +362,41 @@ CRVideoMetaData * uploadResult = [service uploadVideoWithTitleTitle:@"HowTo: Set
 NSLog(@"%@", uploadResult);
 
 ```
+---
+### Messaging Interface:
+
+* FacebookMessenger
+* Telegram
+* Line
+* Viber
+
+#### Features
+
+* Send text messages
+* Send files, images, videos and audios
+* Parse a message received on your webhook
+* Download the content of an attachment sent to your webhook
+
+#### Code Example - Objective-C
+[Full Documentation](https://cloudrail.com/integrations/interfaces/Messaging;platformId=ObjectiveC)
+
+```objective-c
+id<CRMessagingProtocol> service;
+
+//  service = [[CRViber alloc] initWithBotToken:@"[Bot Token]" webhook:@"[Webhook URL]" botName:@"[Bot Name]"];
+//  service = [[CRTelegram alloc] initWithBotToken:@"[Bot Token]" webhook:@"[Webhook URL]"];
+//  service = [[CRLine alloc] initWithBotToken:@"[Bot Token]"];
+
+service =  [[CRFacebookMessenger alloc] initWithBotToken:@"[Bot Token]"];
+
+CRMessage * result = [service sendMessageWithReceiverIdReceiverId:@"12123242" 
+        message:@"It's so easy to send message via CloudRail"
+];
+
+NSLog(@"%@", result);
+
+```
+
 ---
 
 More interfaces are coming soon.
