@@ -234,3 +234,4 @@
 
 ## [1.0.0](https://github.com/CloudRail/cloudrail-si-ios-sdk/tree/1.0.0) (2016-06-02)
 - Initial release
+
