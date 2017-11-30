@@ -1,5 +1,10 @@
 # Change Log
 
+## [5.9.8](https://github.com/CloudRail/cloudrail-si-ios-sdk/tree/5.9.8) (2017-11-29)
+[Full Changelog](https://github.com/CloudRail/cloudrail-si-ios-sdk/compare/5.9.7...5.9.8)
+
+* Cancel button fix webview
+
 ## [5.9.7](https://github.com/CloudRail/cloudrail-si-ios-sdk/tree/5.9.7) (2017-11-28)
 [Full Changelog](https://github.com/CloudRail/cloudrail-si-ios-sdk/compare/5.9.6...5.9.7)
 
