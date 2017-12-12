@@ -7,6 +7,10 @@ It is written for iOS in Objective C and uses the [CloudRail Unified Cloud Stora
 
 You need to have Apple Xcode installed (get it on the [Apple Developer website](https://developer.apple.com/xcode/) or in the [Apple App Store](https://itunes.apple.com/de/app/xcode/id497799835?mt=12)) and need developer credentials for the services you want to use. Instructions on how they can be acquired can be found on our [Unified Cloud Storage API site](https://cloudrail.com/integrations/interfaces/CloudStorage;serviceIds=Box%2CDropbox%2CEgnyte%2CGoogleDrive%2COneDrive%2COneDriveBusiness). You also need a CloudRail API key that you can [get for free here](https://cloudrail.com/signup).
 
+[For Authenticating with Dropbox](https://blog.cloudrail.com/authenticating-with-dropbox/)
+
+[For Authenticating with Google Drive](https://blog.cloudrail.com/authenticating-google-drive/)
+
 Open your *AppDelegate.m* file and enter your CloudRail Key into the following line of code:
 
 ```objectivec
