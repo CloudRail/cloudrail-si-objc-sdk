@@ -264,6 +264,10 @@
 		<data>
 		EKmo8xvAPsS2k1APJbyVs44bbhQ=
 		</data>
+		<key>Headers/CRSlackBot.h</key>
+		<data>
+		OH1zWCCsFmAphkcJwx4NH3v80bQ=
+		</data>
 		<key>Headers/CRSocialProtocol.h</key>
 		<data>
 		cpZCCPr6FcEvW4+oAWp8MnYvjks=
@@ -338,7 +342,7 @@
 		</data>
 		<key>Headers/CloudRailSI.h</key>
 		<data>
-		5HHh31NAwUSf1a9sOtwiQnglBW8=
+		6x0xIpfP9i8wC/upIj9fPlAVTak=
 		</data>
 		<key>Headers/CustomStream.h</key>
 		<data>
@@ -1078,6 +1082,17 @@
 			boAqivkXg3aOeczxSkc9+69MQergc+qxvECIaklpRiA=
 			</data>
 		</dict>
+		<key>Headers/CRSlackBot.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OH1zWCCsFmAphkcJwx4NH3v80bQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			t+V8KzdcegwhwX5SI7XvDdTVM6qZuU3FEFO81L7m1Qc=
+			</data>
+		</dict>
 		<key>Headers/CRSocialProtocol.h</key>
 		<dict>
 			<key>hash</key>
@@ -1280,11 +1295,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5HHh31NAwUSf1a9sOtwiQnglBW8=
+			6x0xIpfP9i8wC/upIj9fPlAVTak=
 			</data>
 			<key>hash2</key>
 			<data>
-			ACVGPhbmkfLm186+V/HCBRLYYm4bBgAVpl1bIXz7XGw=
+			7YAgCbWO+jbc5OE2XDr0CBFGIG/2RwbEv/oKoS4neJM=
 			</data>
 		</dict>
 		<key>Headers/CustomStream.h</key>
