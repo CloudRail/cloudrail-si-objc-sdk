@@ -212,6 +212,10 @@
 		<data>
 		awl1jZOJqQjYxas1auyInznatF0=
 		</data>
+		<key>Headers/CRPCloud.h</key>
+		<data>
+		o8gSgJ6/YZH7P9yyO/Hq/XxFmns=
+		</data>
 		<key>Headers/CRPOI.h</key>
 		<data>
 		Nk2HdDEOTwMX4r4hdWCn5XW0Jsk=
@@ -342,7 +346,7 @@
 		</data>
 		<key>Headers/CloudRailSI.h</key>
 		<data>
-		6x0xIpfP9i8wC/upIj9fPlAVTak=
+		JC0UyC/g3YNDrmeyH/FEtXuGXn0=
 		</data>
 		<key>Headers/CustomStream.h</key>
 		<data>
@@ -350,7 +354,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		QT2Dmz/6x/3fzSElWwYkCIxdnvI=
+		xk970bbxOaTNT4Ixf34OZ8MOWT0=
 		</data>
 		<key>LICENSE.txt</key>
 		<data>
@@ -939,6 +943,17 @@
 			yR+RvktdJj+dX1OZgE3Tlam+nobCyP+n+dGsT89ZhVE=
 			</data>
 		</dict>
+		<key>Headers/CRPCloud.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			o8gSgJ6/YZH7P9yyO/Hq/XxFmns=
+			</data>
+			<key>hash2</key>
+			<data>
+			IebRs15HVqdVAbFXURp4DBbpA75T1DIRdZsHXstOYkg=
+			</data>
+		</dict>
 		<key>Headers/CRPOI.h</key>
 		<dict>
 			<key>hash</key>
@@ -1295,11 +1310,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6x0xIpfP9i8wC/upIj9fPlAVTak=
+			JC0UyC/g3YNDrmeyH/FEtXuGXn0=
 			</data>
 			<key>hash2</key>
 			<data>
-			7YAgCbWO+jbc5OE2XDr0CBFGIG/2RwbEv/oKoS4neJM=
+			ivkcnS3gXnWEe6JDoK2PSKSIEpbZCK0MKGSapAswa9s=
 			</data>
 		</dict>
 		<key>Headers/CustomStream.h</key>
