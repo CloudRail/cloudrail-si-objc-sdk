@@ -1,5 +1,12 @@
 # Change Log
 
+## [5.10.0](https://github.com/CloudRail/cloudrail-si-ios-sdk/tree/5.10.0) (2018-03-27)
+[Full Changelog](https://github.com/CloudRail/cloudrail-si-ios-sdk/compare/5.9.13...5.10.0)
+
+* Minor fix in AmazonS3, GoogleCloudPlatform, FacebookMessenger
+* Fix in uploadFileWithContentModified for all CloudStorage Interfaces.
+* Updated Yelp to use API v3.
+
 ## [5.9.14](https://github.com/CloudRail/cloudrail-si-ios-sdk/tree/5.9.13) (2018-02-28)
 [Full Changelog](https://github.com/CloudRail/cloudrail-si-ios-sdk/compare/5.9.13...5.9.14)
 
