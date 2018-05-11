@@ -1,6 +1,16 @@
 # Change Log
 
-## [5.11.0](https://github.com/CloudRail/cloudrail-si-objc-sdk/tree/5.11.0) (2018-04-11)
+
+
+
+## [5.11.2](https://github.com/CloudRail/cloudrail-si-objc-sdk/tree/5.11.2) (2018-05-11)
+[Full Changelog](https://github.com/CloudRail/cloudrail-si-objc-sdk/compare/5.11.1...5.11.2)
+
+* Fixed bug that UI updates where not executed on main thread during authentication
+* Minor bug fixes & stability improvement
+* Removed unused
+
+## [5.11.1](https://github.com/CloudRail/cloudrail-si-objc-sdk/tree/5.11.1) (2018-04-24)
 [Full Changelog](https://github.com/CloudRail/cloudrail-si-objc-sdk/compare/5.11.0...5.11.1)
 
 * Fixed bug where backslash file path where not encoded properly in GoogleDrive.
