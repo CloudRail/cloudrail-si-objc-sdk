@@ -1,5 +1,11 @@
 # Change Log
 
+## [5.12.0](https://github.com/CloudRail/cloudrail-si-objc-sdk/tree/5.11.3) (2018-07-05)
+[Full Changelog](https://github.com/CloudRail/cloudrail-si-objc-sdk/compare/5.11.3...5.12.0)
+
+* Added AuthenticatingDelegate
+* Added UploadDidCancel method to UploadDelegate
+* Minor Bug fixes
 
 ## [5.11.3](https://github.com/CloudRail/cloudrail-si-objc-sdk/tree/5.11.3) (2018-05-11)
 [Full Changelog](https://github.com/CloudRail/cloudrail-si-objc-sdk/compare/5.11.2...5.11.3)
