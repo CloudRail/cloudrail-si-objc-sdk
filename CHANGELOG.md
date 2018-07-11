@@ -1,6 +1,12 @@
 # Change Log
 
-## [5.12.0](https://github.com/CloudRail/cloudrail-si-objc-sdk/tree/5.11.3) (2018-07-05)
+## [5.12.1](https://github.com/CloudRail/cloudrail-si-objc-sdk/tree/5.12.1) (2018-07-11)
+[Full Changelog](https://github.com/CloudRail/cloudrail-si-objc-sdk/compare/5.12.0...5.12.1)
+
+* Fixed bug that freezes during advanced authentication
+* Minor Bug fixes
+
+## [5.12.0](https://github.com/CloudRail/cloudrail-si-objc-sdk/tree/5.12.0) (2018-07-05)
 [Full Changelog](https://github.com/CloudRail/cloudrail-si-objc-sdk/compare/5.11.3...5.12.0)
 
 * Added AuthenticatingDelegate
